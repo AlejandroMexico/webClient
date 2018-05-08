@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="big-panel-tick">
+    <div class="panel-title">
+        <input type="text" class="big-panel-title-content pretty-font" style="font-size: 18px" placeholder="Title here..."/>
+    </div>
+    <div class="big-panel-body">
+        <textarea id="mcontent" placeholder="Content here..." class="big-panel-body-content pretty-font" style="font-size: 16px"></textarea>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="autosize.js"></script>
+    <script>
+        autosize(document.getElementById('mcontent'));
+    </script>
+
+</div>
+</body>
+</html>
